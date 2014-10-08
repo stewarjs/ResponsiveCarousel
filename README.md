@@ -13,10 +13,11 @@ Using
 =====
 
 Create a reference to the Javascript file:
+```html
 <script src="responsive.carousel.js"></script>
-
+```
 Place the following in your HTML document where you want the carousel to be:
-
+```html
 <div id="container">
   <picture>
   	<!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -36,9 +37,9 @@ Place the following in your HTML document where you want the carousel to be:
   	<img srcset="medium" alt="Generic Image">
 	</picture>
 </div>
-
+```
 Place the following in your CSS stylesheet:
-
+```css
 #container {
     position: relative;
     height: 394px;
@@ -81,3 +82,4 @@ Place the following in your CSS stylesheet:
     border: 2px solid #C74118;
     padding: 4px;
 }
+```
