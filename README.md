@@ -25,7 +25,7 @@ Place the following in your HTML document where you want the carousel to be:
   	<source srcset="medium.jpg" media="(max-width: 800px)">
       <source srcset="large.jpg">
   	<!--[if IE 9]></video><![endif]-->
-  	<img srcset="medium" alt="Generic Image">
+  	<img srcset="medium" alt="Generic Image" data-link="home-page.html">
 	</picture>
     
   <picture>
@@ -34,7 +34,7 @@ Place the following in your HTML document where you want the carousel to be:
   	<source srcset="medium.jpg" media="(max-width: 800px)">
       <source srcset="large.jpg">
   	<!--[if IE 9]></video><![endif]-->
-  	<img srcset="medium" alt="Generic Image">
+  	<img srcset="medium" alt="Generic Image" data-link="news-page.html">
 	</picture>
 </div>
 ```
