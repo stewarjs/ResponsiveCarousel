@@ -1,10 +1,11 @@
-var container = document.getElementById('container');
-var slides = container.getElementsByTagName('picture');
-var pagination = document.createElement('ul');
-var mobilemedia = 552;
-var nextLink;
-var prevLink;
-if(document.body.offsetWidth <= 552) {
+var container = document.getElementById('container'),
+    slides = container.getElementsByTagName('picture'),
+    pagination = document.createElement('ul'),
+    mobilemedia = 552,
+    nextLink,
+    prevLink;
+    
+if(document.body.offsetWidth <= mobilemedia) {
     //el.classList.add(className);
     nextLink = document.createElement('div');
     nextLink.setAttribute("id", "next");
